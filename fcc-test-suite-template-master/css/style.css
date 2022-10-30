@@ -114,6 +114,11 @@ ul {
   margin-left: auto;
 }
 
+/* How it works Section */
+#how-it-works {
+  background: var(--secondary);
+}
+
 /* Interactions */
 .nav-link:hover {
   color: rgba(226, 135, 17, 0.5);
