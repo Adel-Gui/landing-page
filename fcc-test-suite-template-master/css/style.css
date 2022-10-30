@@ -223,7 +223,8 @@ ul {
   outline: 1px solid var(--primary);
 }
 
-#submit:hover {
+#submit:hover,
+.price-card .price-card-body button:hover {
   cursor: pointer;
   background-color: rgba(226, 135, 17, 0.5);
 }
