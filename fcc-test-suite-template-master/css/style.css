@@ -176,6 +176,44 @@ ul {
   color: var(--primary);
 }
 
+/* Media query */
+@media screen and (max-width: 600px) {
+  #header .flex,
+  #nav-bar .flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #nav-bar {
+    margin-top: 1em;
+  }
+
+  #nav-bar .gap-3 {
+    gap: 1em;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col.icon {
+    margin-right: auto;
+    margin-bottom: 0.5em;
+  }
+
+  .col {
+    margin-left: 0;
+  }
+
+  #pricing .flex {
+    flex-direction: column;
+  }
+
+  #pricing .price-card {
+    margin-inline: auto;
+  }
+}
+
 /* Interactions */
 .nav-link:hover {
   color: rgba(226, 135, 17, 0.5);
