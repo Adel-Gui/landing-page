@@ -73,8 +73,11 @@ ul {
 }
 
 /* Hero section */
-#hero-section {
+.section {
   padding-block: 4em;
+}
+
+#hero-section {
   background: var(--secondary);
 }
 
@@ -91,6 +94,24 @@ ul {
   background-color: var(--primary);
   color: white;
   border: none;
+}
+
+/* Features section */
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 1.8em;
+  width: 100%;
+}
+
+.col.icon {
+  color: var(--primary);
+}
+
+.col {
+  max-width: 700px;
+  margin-left: auto;
 }
 
 /* Interactions */
