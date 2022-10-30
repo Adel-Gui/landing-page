@@ -154,6 +154,28 @@ ul {
   padding: 0.5em 1.5em;
 }
 
+/* Footer section */
+#footer .container {
+  background: var(--secondary);
+}
+
+#ft-content {
+  max-width: fit-content;
+  margin-left: auto;
+  padding-right: 0.5em;
+}
+
+#ft-links {
+  width: fit-content;
+  margin-left: auto;
+  margin-bottom: 0.5em;
+}
+
+.ft-item {
+  text-decoration: none;
+  color: var(--primary);
+}
+
 /* Interactions */
 .nav-link:hover {
   color: rgba(226, 135, 17, 0.5);
