@@ -32,6 +32,10 @@ ul {
   gap: 3em;
 }
 
+.gap-1 {
+  gap: 1em;
+}
+
 /* Justify content */
 .justify-content-between {
   justify-content: space-between;
@@ -117,6 +121,37 @@ ul {
 /* How it works Section */
 #how-it-works {
   background: var(--secondary);
+}
+
+/* Pricing section Styles */
+.price-card {
+  width: 400px;
+  border: 2px solid var(--primary);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.price-card .price-card-title {
+  width: 100%;
+  background: #eeeeee;
+  padding: 1em;
+}
+
+.price-card .price-card-body {
+  margin: 1em auto 0.5em auto;
+  line-height: 1.5;
+}
+
+.price-card .price-card-body strong {
+  color: var(--primary);
+}
+
+.price-card .price-card-body button {
+  color: white;
+  background-color: var(--primary);
+  border: none;
+  margin-top: 1em;
+  padding: 0.5em 1.5em;
 }
 
 /* Interactions */
