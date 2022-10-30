@@ -1,0 +1,66 @@
+/* Custome properties */
+:root {
+  --clr-primary: rgb(255, 140, 0);
+  --clr-secondary: #eeeeee;
+
+  /* ---- */
+  --primary: var(--clr-primary);
+  --secondary: var(var(--clr-secondary));
+}
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* utility classes */
+.flex {
+  display: flex;
+}
+
+.gap-3 {
+  gap: 3em;
+}
+
+/* Justify content */
+.justify-content-between {
+  justify-content: space-between;
+}
+
+/* Align items */
+.align-center {
+  align-items: center;
+}
+
+/* Main Styles */
+.container {
+  width: 1200px;
+  max-width: 95%;
+  margin-inline: auto;
+  padding-block: 1em;
+}
+
+.log-img {
+  width: 200px;
+}
+
+.log-img img {
+  width: 100%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+/* Interactions */
+.nav-link:hover {
+  color: rgba(226, 135, 17, 0.5);
+}
